@@ -1,6 +1,8 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <router-view />
+  <q-layout view="hHh Lpr fFf">
+    <div id="app-container" class="row justify-center aling-center">
+      <router-view />
+    </div>
   </q-layout>
 </template>
 
